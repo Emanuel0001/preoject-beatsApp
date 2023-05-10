@@ -421,5 +421,54 @@ iframe {
   border-radius: 5px;
   float: inline-end;
 }
+.rodape {
+ background-color: black;
+ height: 300px;
+ width: 100%;
+ display: flex;
+}
 
+.container {
+ display: inline-block;
+ width: 33%;
+ margin-left: 3px;
+}
 
+.container h1 {
+  padding: 60px;
+  font-size: 40px;
+}
+.LinkRodape {
+  padding: 70px;
+}
+.link {
+  text-align: start;
+  list-style: none;
+  margin-bottom: 15px;
+  color: aqua;
+  width: inherit;
+  border-bottom: 1px solid aqua;
+}
+.linkMidias {
+  padding: 70px;
+  display: flex;
+}
+.icon {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+.midias h5 {
+  display: inline-block;
+  height: 100%;
+}
+
+.midias {
+  margin-bottom: 15px;
+  display: block;
+  text-align: start;
+  width: 100px;
+  color: aqua;
+  font-size: 16px;
+  margin-left: 10px;
+}

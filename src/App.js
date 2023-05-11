@@ -45,8 +45,11 @@ function App() {
           </div>
         </div>
         <div className='menu-nav'>
-          <a><ImUser size={22} color='aqua' /> Log in</a>
-          <a><BiShoppingBag size={22} color='aqua' /> $0,00</a>
+          <a className='clientMenu'><ImUser size={22} color='aqua' /> Log in</a>
+          <a className='clientMenu'><BiShoppingBag size={22} color='aqua' /> $0,00</a>
+          <a className='quickAccess'>Contact</a>
+          <a className='quickAccess'>Channel</a>
+          <a className='quickAccess'>Home</a>
         </div>
       </div>
       <div className='section'>

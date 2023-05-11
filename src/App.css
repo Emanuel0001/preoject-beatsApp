@@ -31,7 +31,7 @@
   color: aqua;
   font-size: 18px;
   font-weight: 300;
-  width: 300px;
+  width: 500px;
   height: 100%;
   margin-left: 600px;
 
@@ -39,14 +39,24 @@
 }
 
 .menu-nav a {
-  width: 28%;
-  font-weight: 300;
+  font-weight: 400;
   float: right;
   text-align: center;
   padding: 17px;
+  font-size: 15px;
+
 
 }
+ .quickAccess {
+  margin-top: 5px;
+ }
+ .quickAccess:hover {
+   border-bottom: solid 1px aqua;
+ }
 
+ .clientMenu {
+  border-left: solid 1px aqua;
+ }
 .section {
   width: 100%;
   height: 100vh;
